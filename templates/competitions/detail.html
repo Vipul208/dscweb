@@ -1,21 +1,11 @@
 {% extends 'base.html' %}
 
-{% block doc_title %} -Competitions {% endblock doc_title %}
+{% block doc_title %} - {{ competition.name }} {% endblock doc_title %}
 
 {% block content %}
 
-<section style="padding-top: 80px">
-    <div class="container-fluid p-4 bgimg-2 text-light">
-        <div class="row">
-            <div class="col-sm-3 text-center">
-                <h1 style="font-family:cursive;"><u>Competitions: </u></h1>
-            </div>
-        </div>
-    </div>
-</section>
 <div class="container">
     <div class="row justify-content-center">
-        {% for competition in competitions %}
         <div class="col-md-4">
             <div class="card shadow" style="width: 20rem;">
                 <div class="inner">
@@ -24,12 +14,10 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">{{ competition.name }}</h5>
                     <p class="card-text"> {{ competition.about }} </p>
-                    <a href="{{ competition.get_absolute_url }}" class="btn btn-success">Know more...</a>
+                    <a href="{{ competition.get_absolute_url }}" class="btn btn-success">View winners </a>
                 </div>
             </div>
         </div>
-        {% endfor %}
     </div>
 </div>
-
 {% endblock %}

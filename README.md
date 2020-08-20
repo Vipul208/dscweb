@@ -41,3 +41,19 @@ here 8000 is port number. you can use any port number you want.
 
     django admin : dsc
     password :
+
+---
+## Contributers
+
+<table>
+  <tr>
+    <td> <img src="https://avatars1.githubusercontent.com/u/49340432?s=400&u=1ede3ed47d746cd629c6c6594a78231eeca85234&v=4"/> </td>
+    <td> <img src="https://avatars2.githubusercontent.com/u/51041014?s=400&u=f6ac5a5e18e184ea778e5530b6decf30468f2dd4&v=4"/> </td>
+    <td> <img src="https://avatars3.githubusercontent.com/u/56739907?s=400&u=0799209962d94c9763ef223405e9014fa4a18dce&v=4"/> </td>
+  </tr>
+    <tr>
+    <td> <a href="https://github.com/its-Kumar"> its-Kumar </a> </td>
+    <td> <a href= "https://github.com/rajatyadav8540/"> rajatyadav8540 </a></td>
+    <td> <a href= "https://github.com/durgesh2001"> durgesh2001 </a></td>
+  </tr>
+</table>
